@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns   = "http://www.w3.org/ns/widgets"
+			xmlns:gap   = "http://phonegap.com/ns/1.0"
+			id          = "com.aljoman.thimar"
+			versionCode = "10" 
+			version     = "1.0.0" >
+		
+		<!-- versionCode is optional and Android only -->
+		
+		<name>Thimar</name>
+		
+		<description>
+			Thimar app 
+		</description>
+		
+		<author>
+			M.Roshdy 
+		</author>
+	
+		<preference name="fullscreen" value="true" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-maxSdkVersion" value="19" />
+		<preference name="android-installLocation" value="auto" />
+		
+	</widget>
