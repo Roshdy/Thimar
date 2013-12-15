@@ -5,7 +5,7 @@
 $(document).on('mobileinit', function(){
 	// jQuery Configuration
 	$.mobile.allowCrossDomainPages = true;
-	$.mobile.defaultPageTransition = "flip";
+	$.mobile.defaultPageTransition = "slide";
 	$.mobile.pageLoadErrorMessage = "عذراً، يوجد خطأ في تحميل الصفحة";
 	$.mobile.pushStateEnabled = false;
 	$.mobile.listview.prototype.options.filterPlaceholder = "ابحث";
