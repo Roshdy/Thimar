@@ -18,7 +18,7 @@
 		</author>
 	
 		<preference name="fullscreen" value="true" />
-		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-minSdkVersion" value="10" />
 		<preference name="android-maxSdkVersion" value="19" />
 		<preference name="android-installLocation" value="auto" />
 		
