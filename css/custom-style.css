@@ -1,6 +1,9 @@
 body {
 
 }
+.ui-page{
+	-webkit-backface-visibility: hidden;
+}
 /*<<<<<<<<<<<<<<<<<<< News Box >>>>>>>>>>>>>>>>>>>>>>*/
 .news_box li,
 .news_box li.ui-li.ui-btn{
