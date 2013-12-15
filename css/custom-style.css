@@ -1,0 +1,72 @@
+body {
+
+}
+/*<<<<<<<<<<<<<<<<<<< News Box >>>>>>>>>>>>>>>>>>>>>>*/
+.news_box li,
+.news_box li.ui-li.ui-btn{
+	min-height: 60px;
+	margin: 5px;
+	border-color: #2373A5;
+	overflow: hidden;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.news_box.ui-listview > .ui-li.ui-last-child{
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.news_box li a{
+	height: 100%;
+}
+.news_box li a.ui-link-inherit{
+	padding-bottom: 0px;
+}
+.news_box .ui-li-has-arrow .ui-btn-inner a.ui-link-inherit,
+.news_box .ui-li-static.ui-li-has-arrow,
+.news_box .ui-li-static.ui-li{
+	padding-bottom: 0px;
+}
+.news_box .news_text{
+	height: 40px;
+}
+.news_box .news_text p.ui-li-desc{
+	height: 45px;
+	line-height: 15px;
+	font-size: 14px;
+	white-space: normal;
+	font-weight: bold;
+	text-shadow: none;
+}
+.news_box .news_info p{
+	display: inline-block;
+	font-weight: bold;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;	
+}
+.news_box .news_info .news_date{
+	float: right;
+	color: #2373A5;
+}
+.news_box a .news_info .news_date{
+	float: right;
+	color: #2373A5;
+	text-shadow: none;
+}
+
+.news_box .news_info .news_hint{
+	float: left;
+	color: #FE2E2E;
+	text-shadow: none;
+}
+/*<<<<<<<<<<<<<<<<<< Info-page >>>>>>>>>>>>>>>>>>>>>>*/
+.ajax-loading{
+	width: 32px;
+	height: 32px;
+}
+
+
+
+
+
+
