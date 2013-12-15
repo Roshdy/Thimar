@@ -18,7 +18,6 @@ $(document).on('mobileinit', function(){
 // Custom script
 $(document).on('pageinit', function(){
 	// NOTE: Before on(page-event), off(page-event) must be called to eliminate multiple calls
-	$.mobile.changePage('#account-page',{transition:"none"});
 	
 	// Home-page Operatations
 	$('#home-page').off('pageshow').on('pageshow', function(){
