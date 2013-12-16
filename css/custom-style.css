@@ -3,13 +3,12 @@ body {
 }
 .ui-page{
 	-webkit-backface-visibility: hidden;
-	position: fixed;
-	top: 0;
-	left: 0;
 }
 /** To fix white flash between transitions**/
 .ui-overlay-a {
-  background-image: none;
+  background-image: url(../img/bg.png) !important;
+  background-repeat: repeat !important;
+  background-color: #F1F1F1 !important;
 }
 /*<<<<<<<<<<<<<<<<<<< News Box >>>>>>>>>>>>>>>>>>>>>>*/
 .news_box li,
