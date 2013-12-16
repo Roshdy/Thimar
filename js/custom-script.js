@@ -25,7 +25,7 @@ $(document).on('pageinit', function(){
 	});
 	
 	// Details-page Operatations
-	$('#details-page').off('pageshow').on('pageshow', function(){
+	$('#details-page').off('pagebeforeshow').on('pageshow', function(){
 		//alert('Details page shown');
 	});
 	
