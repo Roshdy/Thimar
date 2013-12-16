@@ -9,9 +9,7 @@ body {
 }
 /** To fix white flash between transitions**/
 .ui-overlay-a {
-  background-image: url(../img/bg.png) !important;
-  background-repeat: repeat !important;
-  background-color: #182633 !important;
+  background-image: none;
 }
 /*<<<<<<<<<<<<<<<<<<< News Box >>>>>>>>>>>>>>>>>>>>>>*/
 .news_box li,
